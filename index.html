@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide Studio SaaS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.postimg.cc/W10QHb8r/89f60d96-6860-45f2-b688-5401c3dd65d0-removebg-preview-1.png"
+    />
+    <style>
+      .hover-bg-blue {
+        transition: background-color 0.3s ease;
+      }
+      .hover-bg-blue:hover {
+        background-color: #0056b3;
+      }
+      .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-blue-600">Slide Studio</a>
+        <ul class="flex space-x-6">
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#tools" class="hover:text-blue-600">Tools</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-blue-600 text-white">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-center"
+      >
+        <div class="md:w-1/2">
+          <h1 class="text-4xl md:text-6xl font-bold">
+            Transform Your Presentations
+          </h1>
+          <p class="mt-4 text-xl">
+            With Slide Studio's advanced tools, create stunning presentations
+            effortlessly.
+          </p>
+          <a
+            href="#tools"
+            class="mt-6 inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded hover-bg-blue"
+            >Get Started</a
+          >
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+          <img
+            src="https://visme.co/blog/wp-content/uploads/2019/08/presentation-slides-header.gif"
+            alt="Presentation Image"
+            class="rounded shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+          Why Choose Slide Studio?
+        </h2>
+        <div
+          class="mt-10 flex flex-wrap justify-center space-y-10 md:space-y-0 md:space-x-10"
+        >
+          <div class="max-w-sm p-6 bg-gray-100 rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">Ease of Use</h3>
+            <p class="mt-4 text-gray-600">
+              Intuitive and user-friendly interface that makes creating
+              presentations a breeze.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-gray-100 rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">Customization</h3>
+            <p class="mt-4 text-gray-600">
+              Tailor your presentations with various fonts, templates, and
+              styles.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-gray-100 rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">Efficiency</h3>
+            <p class="mt-4 text-gray-600">
+              Automate your presentation creation process and save time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-20 bg-gray-100">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Our Tools</h2>
+        <div
+          class="mt-10 flex flex-wrap justify-center space-y-10 md:space-y-0 md:space-x-10"
+        >
+          <div class="max-w-sm p-6 bg-white rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">
+              Text to PPT Generator
+            </h3>
+            <p class="mt-4 text-gray-600">
+              Easily convert text into visually compelling PowerPoint
+              presentations. Tailor educational presentations by specifying
+              topics, slide counts, and class standards. Customize fonts and
+              optionally upload templates for a seamless design process.
+            </p>
+            <a
+              href="https://text-to-ppt-awhlbterpq-uc.a.run.app/"
+              class="mt-6 inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded hover-bg-blue"
+              >Try Out</a
+            >
+          </div>
+          <div class="max-w-sm p-6 bg-white rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">
+              PPT to Audio Script Generator
+            </h3>
+            <p class="mt-4 text-gray-600">
+              Automatically create structured audio scripts from your PowerPoint
+              presentations. Upload your PPT file, specify the topic and grade
+              level, and select the desired audio script style to enhance
+              accessibility and narration capabilities.
+            </p>
+            <a
+              href="https://ppt-to-audio-script-awhlbterpq-uc.a.run.app"
+              class="mt-6 inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded hover-bg-blue"
+              >Try Out</a
+            >
+          </div>
+          <div class="max-w-sm p-6 bg-white rounded shadow card">
+            <h3 class="text-2xl font-bold text-blue-600">
+              PPT to Video Generator
+            </h3>
+            <p class="mt-4 text-gray-600">
+              Transform your slides into dynamic video content. Upload your PPT,
+              choose the topic, class standard, voice type, and audio tone style
+              for personalized video presentations that engage and inform your
+              audience effectively.
+            </p>
+            <a
+              href="#"
+              class="mt-6 inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded hover-bg-blue"
+              >Try Out</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+          Get in Touch
+        </h2>
+        <p class="mt-4 text-xl text-gray-600">
+          Have questions? Reach out to us for more information.
+        </p>
+        <a
+          href="mailto:prathameshmandavakar277@gmail.com"
+          class="mt-6 inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded hover-bg-blue"
+          >Contact Us</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 p-4 text-center">
+      <p class="text-gray-500">© 2024 Slide Studio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
